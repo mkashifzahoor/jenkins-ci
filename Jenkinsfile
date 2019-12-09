@@ -8,4 +8,9 @@ pipeline {
          }
       }
    }
+   post {
+    success {
+      build 'Deployment'
+    }
+}
 }
