@@ -7,6 +7,11 @@ pipeline {
             build 'GitPull and Build'
          }
       }
+      stage('test') {
+         steps {
+            build 'api_tests'
+         }
+      }
    }
    post {
     success {
