@@ -7,7 +7,7 @@ pipeline {
             build 'GitPull and Build'
          }
       }
-      stage('test') {
+      stage('API Test') {
          steps {
             build 'api_tests'
          }
