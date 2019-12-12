@@ -1,2 +1,2 @@
 <?php
-echo 'Server Push.';
+echo 'Server Push. 1';
