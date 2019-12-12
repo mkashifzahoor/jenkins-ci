@@ -23,7 +23,7 @@ class user_login {
 			$msg = 'Email not valid';
 			$status = 'failure';
 		} else {
-			$msg = 'Login successful';
+			$msg = 'Login successful for 48 hours';
 			$status = 'success';
 		}
 		$response = array('status' => $status,
